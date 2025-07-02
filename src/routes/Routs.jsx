@@ -8,6 +8,7 @@ export default function AppRoutes (){
     return(
         <Routes>
 
+            <Route path="/"element={<PrivateRoute><Home /></PrivateRoute>}/>
            <Route path="/home"element={<PrivateRoute><Home /></PrivateRoute>}/>
            <Route path='/login' element={<Login/>}></Route>
             <Route path='/register' element={<Register/>}></Route>
