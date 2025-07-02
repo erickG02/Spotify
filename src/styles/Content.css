@@ -1,0 +1,30 @@
+.content-main{
+    background-color: #121212;
+    width: 80%;
+    margin-left:23rem ;
+    margin-top:4rem;
+    border-radius: .5rem;
+    height: calc(100vh - 4rem - 2rem);
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    box-sizing: border-box;
+    padding-bottom: 1rem;
+    
+    
+}
+.treding-list-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem;
+}
+h3{
+    font-size: 1.5rem
+
+}
+p{
+    font-size: .8rem;
+    font-weight: bold;
+    color:#505050;
+}

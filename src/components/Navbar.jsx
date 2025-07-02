@@ -44,7 +44,7 @@ export default function Navbar(){
         Instalar app
         </Link>
         <Link to="/register">Registrarte</Link>
-        <Link to="/" className="navbar-login">
+        <Link to="/login" className="navbar-login">
           Iniciar sesión
         </Link>
       </nav>
